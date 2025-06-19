@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import { FlatCompat } from "@eslint/eslintrc";
 
 const compat = new FlatCompat({ baseDirectory: process.cwd() });

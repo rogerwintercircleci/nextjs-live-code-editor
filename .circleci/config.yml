@@ -5,9 +5,9 @@ orbs:
 
 jobs:
   lint-and-test:
-    executor: 
+    executor:
       name: node/default
-      tag: '22.13.1'
+      tag: "22.13.1"
     steps:
       - checkout
       - run: npm ci
@@ -19,4 +19,3 @@ workflows:
   lint-and-test:
     jobs:
       - lint-and-test
-
